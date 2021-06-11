@@ -90,6 +90,7 @@ p > span {
 
 .heart:hover {
     color: red;
+    cursor: pointer;
 }
 
 
