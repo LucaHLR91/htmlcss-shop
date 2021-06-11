@@ -7,9 +7,11 @@
 /* common */
 
 .container {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
-    background-color: aqua;
+    margin-top: 10px;
+    text-align: center;
+
 }
 
 .card {
@@ -22,11 +24,11 @@
 }
 
 .lay0 {
+    position: absolute;
     width: 100%;
 }
 
 .lay1 {
-    display: none;
     width: 100%;
 }
 
@@ -62,7 +64,7 @@
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .new-price {
@@ -76,6 +78,19 @@ p > span {
 
 
 
+/* /common */
+
+.lay0:hover {
+    display: none;
+}
+
+.lay0:hover .lay1 {
+    display: active;
+}
+
+.heart:hover {
+    color: red;
+}
 
 
 
